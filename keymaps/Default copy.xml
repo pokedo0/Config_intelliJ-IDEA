@@ -1,6 +1,14 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
   <action id="GenerateJavadoc">
     <keyboard-shortcut first-keystroke="ctrl alt j" />
+  </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="SurroundWithLiveTemplate" />
   <action id="SwitchApply">
