@@ -1,4 +1,5 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="ChangeSignature" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
@@ -7,12 +8,13 @@
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
+  <action id="ModifyObject" />
   <action id="NewClass">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
-  <action id="RenameElement" />
-  <action id="RenameFile">
-    <keyboard-shortcut first-keystroke="shift f6" second-keystroke="shift f6" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="ctrl f6" />
+    <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="SurroundWithLiveTemplate" />
   <action id="SwitchApply">
