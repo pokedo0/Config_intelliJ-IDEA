@@ -8,6 +8,9 @@
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
+  <action id="Javaee.Deploy">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
   <action id="ModifyObject" />
   <action id="NewClass">
     <keyboard-shortcut first-keystroke="ctrl n" />
