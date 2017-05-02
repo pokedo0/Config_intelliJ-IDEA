@@ -5,5 +5,9 @@
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
     <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="GenericSQL" injector-id="xml">
+      <display-name>radio/@list</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("list")).withParent(xmlTag().withLocalName(string().equalTo("radio")).withNamespace(string().matches("/struts-tags")))]]></place>
+    </injection>
   </component>
 </application>
