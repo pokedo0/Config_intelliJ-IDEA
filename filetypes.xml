@@ -1,7 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="validators" type="DTD" />
       <mapping pattern="aa" type="DTD" />
+      <mapping pattern="RegisterAction-validation" type="XML" />
       <mapping pattern="LoainAction-validation" type="XML" />
     </extensionMap>
   </component>
